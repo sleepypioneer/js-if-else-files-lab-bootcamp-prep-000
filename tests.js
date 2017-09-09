@@ -6,9 +6,9 @@ if (index.name === "Susan") {
     console.log("Expected: Susan, Received: "+index.name)
 }
 
+var height = parseInt("index.height")
 
-
-if (parseInt("index.height") === 70) {
+if (height === 70) {
     console.log("The height is correct")
 } else {
     console.log("Expected: 70, Received: "+index.height)
